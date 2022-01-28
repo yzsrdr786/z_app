@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="flex-container">
+        <ng-container *ngFor="let post of postData$ | async">
+            <app-post [post]="post" class="post flex-cell"></app-post>
+        </ng-container>
+    </div>
+</div>
