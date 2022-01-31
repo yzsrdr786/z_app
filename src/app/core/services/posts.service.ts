@@ -37,7 +37,7 @@ export class PostsService {
             });
     }
 
-    public getPosts(limit = null): Observable<Post[]> {
+    public getPosts(): Observable<Post[]> {
         return this.posts$;
     }
 }
